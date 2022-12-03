@@ -31,7 +31,7 @@ public class start {
 
         mergeSort(leftArr, half);
         mergeSort(rightArr, n - half);
-        merge(a, leftArr, rightArr,half,n - half);
+        merge(a, leftArr, rightArr, half, n - half);
 
         // return merge(a, leftArr ,rightArr , rightArr.length, rightArr.length);
     }
@@ -47,13 +47,16 @@ public class start {
             } else {
                 a[k++] = rightAr[j++];
             }
-        };
+        }
+        ;
         while (i < left) {
             a[k++] = leftAr[i++];
-        };
+        }
+        ;
         while (j < right) {
             a[k++] = rightAr[j++];
-        };
+        }
+        ;
         return;
     }
 
