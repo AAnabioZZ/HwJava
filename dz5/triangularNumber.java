@@ -3,9 +3,9 @@ import input.inputInt;
 
 public class triangularNumber {
     public static void main(String[] args) {
-        int n = inputInt.inputIntNam("Введите число");
+        int n = inputInt.inputIntNam("целое натуральное число");
         int triangulNum = (int)(0.5*(double)n*(n+1));
-        System.out.printf("треугольное число из %s ровняется %s",n,triangulNum);
+        System.out.printf("Треугольное число из %s ровняется %s",n,triangulNum);
     }
 }
 
